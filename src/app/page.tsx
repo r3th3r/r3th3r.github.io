@@ -17,7 +17,7 @@ export default function Page() {
                     <h1 className="text-white text-[4rem] leading-[4.5rem] font-bold max-w-[490px]">
                         Bourgain Wilbal <span>Nicolas</span>
                     </h1>
-                    <p className="text-[#606060] w-full text-justify px-0 py-4 max-w-[760px]">
+                    <p className="text-[#f1f1f1] w-full text-justify px-0 py-4 max-w-[760px]">
                         Hello, my name is Nicolas, and I am passionate about computer development and the world of
                         cybersecurity. Over the
                         years, I have acquired many skills, and I invite you to discover them below.

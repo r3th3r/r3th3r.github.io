@@ -1,6 +1,6 @@
-import Link from "next/link";
-import ProjectItem from "@/components/project/project-item";
 import React from "react";
+// components
+import ProjectItem from "@/components/project/project-item";
 
 const projectData = [
     {

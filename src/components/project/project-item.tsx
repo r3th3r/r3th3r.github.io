@@ -20,7 +20,7 @@ const ProjectItem = (props: Props) => {
             <div className="flex flex-col flex-1 h-full">
                 <div className="flex-1">
                     <div className="relative w-[30px] h-[3px] bg-[#F58F20] mb-5 rounded-[20px]"></div>
-                    <h4 className="text-xl font-bold mb-4">{props.title}</h4>
+                    <h1 className="text-xl font-bold mb-4">{props.title}</h1>
                     <p className="text-justify mb-4">{props.description}</p>
                 </div>
                 <CustomLink text="See project" href={props.href} target="_blank"/>
