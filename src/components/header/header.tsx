@@ -1,5 +1,5 @@
 import Image from "next/image";
-import BurgerMenu from "@/components/menu/burger-menu";
+import BurgerMenu from "@/components/nav-bar/burger-menu";
 import NavBar from "@/components/nav-bar";
 
 const Header = () => {

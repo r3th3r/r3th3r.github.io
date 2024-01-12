@@ -22,7 +22,7 @@ export default function Page() {
                         cybersecurity. Over the
                         years, I have acquired many skills, and I invite you to discover them below.
                     </p>
-                    <CustomLink text="Projets réalisés" href="/"/>
+                    <CustomLink text="Projets réalisés" href="/projects"/>
                 </div>
                 <div className="flex flex-1 justify-center items-center">
                     <Image
