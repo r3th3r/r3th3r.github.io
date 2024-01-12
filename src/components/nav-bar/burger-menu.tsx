@@ -1,6 +1,8 @@
 "use client"
 //
 import React, { useState } from 'react';
+import BurgerItem from "@/components/nav-bar/burger-item";
+import NavItem from "@/components/nav-bar/nav-item";
 
 const BurgerMenu = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -22,10 +24,15 @@ const BurgerMenu = () => {
                         <span className="w-5 h-[3px] bg-white rounded-[50px]"></span>
                     </div>
                 </button>
-                <div className="absolute" style={{display: isOpen ? "block" : "hidden"}}>
-                    <a href="/">Home</a>
-                    <a href="/about">About</a>
-                    <a href="/contact">Contact</a>
+                <div
+                    className="bg-[#1F1F1F] absolute left-8 right-8 p-4 md:p-0 mt-4 font-medium border border-[#606060] rounded-lg md:space-x-8 md:flex-row md:mt-0 md:border-0"
+                    style={{ display: isOpen ? "block" : "none" }}>
+                    <ul className="flex flex-col gap-4 items-center">
+                        <BurgerItem href="/" text="Home" onClick={toggleMenu} />
+                        <BurgerItem href="/projects" text="projects" onClick={toggleMenu} />
+                        <BurgerItem href="/skills" text="skills" onClick={toggleMenu} />
+                        <BurgerItem href="/mail_to" text="contact" onClick={toggleMenu} />
+                    </ul>
                 </div>
             </div>
         </div>
