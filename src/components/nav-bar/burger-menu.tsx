@@ -1,8 +1,8 @@
 "use client"
 //
 import React, { useState } from 'react';
+// components
 import BurgerItem from "@/components/nav-bar/burger-item";
-import NavItem from "@/components/nav-bar/nav-item";
 
 const BurgerMenu = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -31,7 +31,7 @@ const BurgerMenu = () => {
                         <BurgerItem href="/" text="Home" onClick={toggleMenu} />
                         <BurgerItem href="/projects" text="projects" onClick={toggleMenu} />
                         <BurgerItem href="/skills" text="skills" onClick={toggleMenu} />
-                        <BurgerItem href="/mail_to" text="contact" onClick={toggleMenu} />
+                        <BurgerItem href="/why-nextjs" text="memoire" onClick={toggleMenu} />
                     </ul>
                 </div>
             </div>

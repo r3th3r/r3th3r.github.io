@@ -13,7 +13,7 @@ export default function NavBar() {
                 <NavItem href="/" text="Home"/>
                 <NavItem href="/projects" text="projects"/>
                 <NavItem href="/skills" text="skills"/>
-                <NavItem href="/mail_to" text="contact"/>
+                <NavItem href="/why-nextjs" text="memoire"/>
             </ul>
         </nav>
     );
