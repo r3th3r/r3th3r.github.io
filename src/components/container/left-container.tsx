@@ -15,8 +15,8 @@ const LeftContainer = () => {
                 return "My projects and contributions";
             case "/skills":
                 return "Programming Languages and Dev Tools";
-            case "/contact":
-                return "Contact me!";
+            case "/why-nextjs":
+                return "Why using nextjs ?";
             default:
                 return "";
         }

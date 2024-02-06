@@ -5,6 +5,8 @@ import Image from "next/image";
 // components
 import CustomLink from "@/components/button/button";
 import LastProjectList from "@/components/project/last-project-list";
+// images
+import avatar from "../../public/images/avatar.png";
 
 export default function Page() {
     return (
@@ -19,8 +21,7 @@ export default function Page() {
                     </h1>
                     <p className="text-[#f1f1f1] w-full text-justify px-0 py-4 max-w-[760px]">
                         Hello, my name is Nicolas, and I am passionate about computer development and the world of
-                        cybersecurity. Over the
-                        years, I have acquired many skills, and I invite you to discover them below.
+                        cyber security. Over the years, I have acquired many skills, and I invite you to discover them below.
                     </p>
                     <CustomLink text="Projets réalisés" href="/projects"/>
                 </div>
@@ -29,13 +30,14 @@ export default function Page() {
                         alt="Avatar"
                         width="300"
                         height="300"
-                        src="/images/avatar.png"
+                        src={avatar}
                         className="rounded-full"
+                        placeholder="blur"
                     />
                 </div>
             </header>
             <footer>
-                <h1 className="text-3xl font-bold mb-8">Dernier projets</h1>
+                <h1 className="text-3xl font-bold mb-8">Last projects</h1>
                 <LastProjectList/>
             </footer>
         </section>
